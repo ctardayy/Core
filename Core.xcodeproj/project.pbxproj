@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D81B286F1CE3291E005EB19C /* Core.h in Headers */ = {isa = PBXBuildFile; fileRef = D81B286E1CE3291E005EB19C /* Core.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D81B28781CE32932005EB19C /* Person.h in Headers */ = {isa = PBXBuildFile; fileRef = D81B28761CE32932005EB19C /* Person.h */; };
+		D81B28781CE32932005EB19C /* Person.h in Headers */ = {isa = PBXBuildFile; fileRef = D81B28761CE32932005EB19C /* Person.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D81B28791CE32932005EB19C /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = D81B28771CE32932005EB19C /* Person.m */; };
 /* End PBXBuildFile section */
 
