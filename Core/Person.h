@@ -11,6 +11,7 @@
 @interface Person : NSObject
 @property (nonatomic, copy, readonly) NSString *identifier;
 @property (nonatomic, copy, readonly) NSString *name;
+@property (nonatomic, copy, readonly) NSString *address;
 
 - (instancetype) initWithIdentifier: (NSString *) identifier
                                name: (NSString *) name;
