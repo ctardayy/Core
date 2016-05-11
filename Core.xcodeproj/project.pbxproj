@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		D81B286F1CE3291E005EB19C /* Core.h in Headers */ = {isa = PBXBuildFile; fileRef = D81B286E1CE3291E005EB19C /* Core.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D81B28781CE32932005EB19C /* Person.h in Headers */ = {isa = PBXBuildFile; fileRef = D81B28761CE32932005EB19C /* Person.h */; };
+		D81B28791CE32932005EB19C /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = D81B28771CE32932005EB19C /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D81B286B1CE3291E005EB19C /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D81B286E1CE3291E005EB19C /* Core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
 		D81B28701CE3291E005EB19C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D81B28761CE32932005EB19C /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		D81B28771CE32932005EB19C /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,8 @@
 			children = (
 				D81B286E1CE3291E005EB19C /* Core.h */,
 				D81B28701CE3291E005EB19C /* Info.plist */,
+				D81B28761CE32932005EB19C /* Person.h */,
+				D81B28771CE32932005EB19C /* Person.m */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -60,6 +66,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D81B286F1CE3291E005EB19C /* Core.h in Headers */,
+				D81B28781CE32932005EB19C /* Person.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D81B28791CE32932005EB19C /* Person.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
